@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyApplication</string>
+    <string name="pending_sync_pattern">Pending sync:%d</string>
+    <string name="save">Save</string>
+    <string name="last_sync">Last sync:</string>
+    <string name="ping">Ping</string>
+    <string name="name">Name</string>
+    <string name="date_time_pattern" >%1$s %2$s</string>
+</resources>
