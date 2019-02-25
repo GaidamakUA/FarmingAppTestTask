@@ -14,7 +14,7 @@ import androidx.work.OneTimeWorkRequest;
 import androidx.work.WorkManager;
 
 public class PingRepository {
-    private static final SimpleDateFormat TIMESTAMP_FORMAT = new SimpleDateFormat("YYYY-mm-dd", Locale.UK);
+    private static final SimpleDateFormat TIMESTAMP_FORMAT = new SimpleDateFormat("yyyy-mm-dd", Locale.UK);
     private final PingDao pingDao;
     private final LiveData<List<Ping>> unreportedPings;
 
